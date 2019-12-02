@@ -1,0 +1,23 @@
+{
+  "name": "detective-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "detective-amd": "^3.0.0",
+    "detective-cjs": "^3.1.1",
+    "detective-es6": "^2.1.0",
+    "detective-less": "^1.0.2",
+    "detective-postcss": "^3.0.1",
+    "detective-sass": "^3.0.1",
+    "detective-scss": "^2.0.1",
+    "detective-stylus": "^1.0.0",
+    "detective-typescript": "^5.7.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
