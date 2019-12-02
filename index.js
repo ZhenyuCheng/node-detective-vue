@@ -3,7 +3,7 @@
  * @author chengzhenyu@corp.netease.com
  * @date 2019-12-02 15:26:36
  * @Last Modified by: chengzhenyu@corp.netease.com
- * @Last Modified time: 2019-12-02 19:39:46
+ * @Last Modified time: 2019-12-02 19:53:03
  */
 'use strict';
 
@@ -28,7 +28,7 @@ function getVueDeps(src, options) {
 
     let dependencies = [];
     let output = compiler.parseComponent(src);
-    console.log(output);
+    // console.log(output);
     let theJsDetective;
     let jsType;
     if(output.script.lang && (output.script.lang.toLowerCase === 'ts' ||  output.script.lang.toLowerCase === 'typescript')) {
