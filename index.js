@@ -3,7 +3,7 @@
  * @author chengzhenyu@corp.netease.com
  * @date 2019-12-02 15:26:36
  * @Last Modified by: chengzhenyu@corp.netease.com
- * @Last Modified time: 2019-12-02 16:59:16
+ * @Last Modified time: 2019-12-02 19:39:46
  */
 'use strict';
 
@@ -86,6 +86,6 @@ function getVueDeps(src, options) {
 };
 
 // // test
-var content = require('fs').readFileSync('./main.vue', 'utf8');
-getVueDeps(content)
+// var content = require('fs').readFileSync('./main.vue', 'utf8');
+// getVueDeps(content)
 module.exports = getVueDeps;
